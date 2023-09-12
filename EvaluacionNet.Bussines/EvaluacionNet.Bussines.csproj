@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Bussines.interfaces\EvaluacionNet.Bussines.interfaces.csproj" />
+	  <ProjectReference Include="..\Entities\EvaluacionNet.Entities.csproj" />
+	  <ProjectReference Include="..\EvaluacionNet.Repository.interfaces\EvaluacionNet.Repository.interfaces.csproj" />
+	  <ProjectReference Include="..\EvaluacionNet.Repository\EvaluacionNet.Repository.csproj" />
+	  <ProjectReference Include="..\EvaluacionNet.Util\EvaluacionNet.Util.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bussines.interfaces\EvaluacionNet.Bussines.interfaces.csproj" />
+    <ProjectReference Include="..\Entities\EvaluacionNet.Entities.csproj" />
+    <ProjectReference Include="..\EvaluacionNet.Bussines\EvaluacionNet.Bussines.csproj" />
+    <ProjectReference Include="..\EvaluacionNet.Repository.interfaces\EvaluacionNet.Repository.interfaces.csproj" />
+    <ProjectReference Include="..\EvaluacionNet.Repository\EvaluacionNet.Repository.csproj" />
+  </ItemGroup>
+
+
+
+</Project>
